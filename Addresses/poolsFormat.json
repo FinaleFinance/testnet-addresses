@@ -1,0 +1,632 @@
+[
+  {
+    "id": "Muteio-0x520A212B0bEd983f0D579CE6927A1741c06980dB",
+    "type": "pool",
+    "attributes": {
+      "address": "0x520A212B0bEd983f0D579CE6927A1741c06980dB",
+      "name": "USDC / WETH",
+      "base_token_price_quote_token": 0.00054054054054054,
+      "quote_token_price_base_token": 1850,
+      "swap_fee": "0.3"
+    },
+    "relationships": {
+      "dex": {
+        "data": {
+          "id": "Muteio",
+          "type": "dex"
+        }
+      },
+      "base_token": {
+        "data": {
+          "name": "USD Coin",
+          "symbol": "USDC",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0xa841ab489000"
+          },
+          "contract_address": "0xAAa102BC84B3867607E3CF56af84A34aD441BD7a",
+          "decimals": 6,
+          "type": "token"
+        }
+      },
+      "quote_token": {
+        "data": {
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x152d02c7e14af6800000"
+          },
+          "contract_address": "0xE6B0F358a65D43642E5A09E747f7bC5571aCdF51",
+          "decimals": 18,
+          "type": "token"
+        }
+      }
+    }
+  },
+  {
+    "id": "Muteio-0xBB5e786bA50Bcfc58913637c77B73b63B771873D",
+    "type": "pool",
+    "attributes": {
+      "address": "0xBB5e786bA50Bcfc58913637c77B73b63B771873D",
+      "name": "WBTC / WETH",
+      "base_token_price_quote_token": 39.99999999999999,
+      "quote_token_price_base_token": 0.025,
+      "swap_fee": "0.3"
+    },
+    "relationships": {
+      "dex": {
+        "data": {
+          "id": "Muteio",
+          "type": "dex"
+        }
+      },
+      "base_token": {
+        "data": {
+          "name": "Wrapped Bitcoin",
+          "symbol": "WBTC",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x3a35294400"
+          },
+          "contract_address": "0x5D6B8e88A76dA3Ed4Fa417318B57EF5c81619708",
+          "decimals": 8,
+          "type": "token"
+        }
+      },
+      "quote_token": {
+        "data": {
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x152d02c7e14af6800000"
+          },
+          "contract_address": "0xE6B0F358a65D43642E5A09E747f7bC5571aCdF51",
+          "decimals": 18,
+          "type": "token"
+        }
+      }
+    }
+  },
+  {
+    "id": "Muteio-0x4b9521790f27038bda0691b6AFd899ab10b8Def4",
+    "type": "pool",
+    "attributes": {
+      "address": "0x4b9521790f27038bda0691b6AFd899ab10b8Def4",
+      "name": "DAI / WETH",
+      "base_token_price_quote_token": 0.000552486187845304,
+      "quote_token_price_base_token": 1810.0000000000002,
+      "swap_fee": "0.3"
+    },
+    "relationships": {
+      "dex": {
+        "data": {
+          "id": "Muteio",
+          "type": "dex"
+        }
+      },
+      "base_token": {
+        "data": {
+          "name": "Dai Stablecoin",
+          "symbol": "DAI",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x95b83da936e402d5000000"
+          },
+          "contract_address": "0x70abA4bfe60c143CB0A2CA3A288D27078B1Cd087",
+          "decimals": 18,
+          "type": "token"
+        }
+      },
+      "quote_token": {
+        "data": {
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x152d02c7e14af6800000"
+          },
+          "contract_address": "0xE6B0F358a65D43642E5A09E747f7bC5571aCdF51",
+          "decimals": 18,
+          "type": "token"
+        }
+      }
+    }
+  },
+  {
+    "id": "Muteio-0x976c6b483E132eAaBE0B2f84bff77422dd730881",
+    "type": "pool",
+    "attributes": {
+      "address": "0x976c6b483E132eAaBE0B2f84bff77422dd730881",
+      "name": "USDT / WETH",
+      "base_token_price_quote_token": 0.000547945205479452,
+      "quote_token_price_base_token": 1825,
+      "swap_fee": "0.3"
+    },
+    "relationships": {
+      "dex": {
+        "data": {
+          "id": "Muteio",
+          "type": "dex"
+        }
+      },
+      "base_token": {
+        "data": {
+          "name": "Tether USD",
+          "symbol": "USDT",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0xa5fb97abe800"
+          },
+          "contract_address": "0xD89328690Ff642cC8974CcD4246Ab4e3F2E8F96A",
+          "decimals": 6,
+          "type": "token"
+        }
+      },
+      "quote_token": {
+        "data": {
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x152d02c7e14af6800000"
+          },
+          "contract_address": "0xE6B0F358a65D43642E5A09E747f7bC5571aCdF51",
+          "decimals": 18,
+          "type": "token"
+        }
+      }
+    }
+  },
+  {
+    "id": "Muteio-0x1Ff039EAb08cCbd4aD91E3705327ffFF8061f0b6",
+    "type": "pool",
+    "attributes": {
+      "address": "0x1Ff039EAb08cCbd4aD91E3705327ffFF8061f0b6",
+      "name": "SHIB / WETH",
+      "base_token_price_quote_token": 0.0005,
+      "quote_token_price_base_token": 2000.0000000000002,
+      "swap_fee": "0.3"
+    },
+    "relationships": {
+      "dex": {
+        "data": {
+          "id": "Muteio",
+          "type": "dex"
+        }
+      },
+      "base_token": {
+        "data": {
+          "name": "SHIBA INU",
+          "symbol": "SHIB",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0xa56fa5b99019a5c8000000"
+          },
+          "contract_address": "0x003c7843DD0308Dbe4AdeeDfD51e05Bfb1fc5664",
+          "decimals": 18,
+          "type": "token"
+        }
+      },
+      "quote_token": {
+        "data": {
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x152d02c7e14af6800000"
+          },
+          "contract_address": "0xE6B0F358a65D43642E5A09E747f7bC5571aCdF51",
+          "decimals": 18,
+          "type": "token"
+        }
+      }
+    }
+  },
+  {
+    "id": "Muteio-0x1965f9C5a8558E4Ed8201250d8a1bcaBc608c3EA",
+    "type": "pool",
+    "attributes": {
+      "address": "0x1965f9C5a8558E4Ed8201250d8a1bcaBc608c3EA",
+      "name": "LINK / WETH",
+      "base_token_price_quote_token": 0.009999999999999998,
+      "quote_token_price_base_token": 100.00000000000001,
+      "swap_fee": "0.3"
+    },
+    "relationships": {
+      "dex": {
+        "data": {
+          "id": "Muteio",
+          "type": "dex"
+        }
+      },
+      "base_token": {
+        "data": {
+          "name": "ChainLink Token",
+          "symbol": "LINK",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x084595161401484a000000"
+          },
+          "contract_address": "0xac9F144787945dc07C82E24EadC9Bd559376C047",
+          "decimals": 18,
+          "type": "token"
+        }
+      },
+      "quote_token": {
+        "data": {
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x152d02c7e14af6800000"
+          },
+          "contract_address": "0xE6B0F358a65D43642E5A09E747f7bC5571aCdF51",
+          "decimals": 18,
+          "type": "token"
+        }
+      }
+    }
+  },
+  {
+    "id": "Muteio-0xe488eE366b143d113da5bd9F9dEfe03d8e14D320",
+    "type": "pool",
+    "attributes": {
+      "address": "0xe488eE366b143d113da5bd9F9dEfe03d8e14D320",
+      "name": "ALE / WETH",
+      "base_token_price_quote_token": 0.001333333333333333,
+      "quote_token_price_base_token": 750.0000000000001,
+      "swap_fee": "0.3"
+    },
+    "relationships": {
+      "dex": {
+        "data": {
+          "id": "Muteio",
+          "type": "dex"
+        }
+      },
+      "base_token": {
+        "data": {
+          "name": "Finale Token",
+          "symbol": "ALE",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x3e09de2596099e2b000000"
+          },
+          "contract_address": "0xD69e29ae88274a623d1f8a10B84000C52127FBAb",
+          "decimals": 18,
+          "type": "token"
+        }
+      },
+      "quote_token": {
+        "data": {
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x152d02c7e14af6800000"
+          },
+          "contract_address": "0xE6B0F358a65D43642E5A09E747f7bC5571aCdF51",
+          "decimals": 18,
+          "type": "token"
+        }
+      }
+    }
+  },
+  {
+    "id": "Syncswap-0x1e2e2cab62cbecdeee99a75da24ab1336a38701e",
+    "type": "pool",
+    "attributes": {
+      "address": "0x1e2e2cab62cbecdeee99a75da24ab1336a38701e",
+      "name": "USDC / WETH",
+      "base_token_price_quote_token": 0.000549450549450549,
+      "quote_token_price_base_token": 1820,
+      "swap_fee": "0.3"
+    },
+    "relationships": {
+      "dex": {
+        "data": {
+          "id": "Syncswap",
+          "type": "dex"
+        }
+      },
+      "base_token": {
+        "data": {
+          "name": "USD Coin",
+          "symbol": "USDC",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0xa5872d596000"
+          },
+          "contract_address": "0xAAa102BC84B3867607E3CF56af84A34aD441BD7a",
+          "decimals": 6,
+          "type": "token"
+        }
+      },
+      "quote_token": {
+        "data": {
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x152d02c7e14af6800000"
+          },
+          "contract_address": "0xE6B0F358a65D43642E5A09E747f7bC5571aCdF51",
+          "decimals": 18,
+          "type": "token"
+        }
+      }
+    }
+  },
+  {
+    "id": "Syncswap-0x1549ffe8916b68d35d4327d9c6c6f9e7c6f78933",
+    "type": "pool",
+    "attributes": {
+      "address": "0x1549ffe8916b68d35d4327d9c6c6f9e7c6f78933",
+      "name": "WBTC / WETH",
+      "base_token_price_quote_token": 49.99999999999999,
+      "quote_token_price_base_token": 0.02,
+      "swap_fee": "0.3"
+    },
+    "relationships": {
+      "dex": {
+        "data": {
+          "id": "Syncswap",
+          "type": "dex"
+        }
+      },
+      "base_token": {
+        "data": {
+          "name": "Wrapped Bitcoin",
+          "symbol": "WBTC",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x2e90edd000"
+          },
+          "contract_address": "0x5D6B8e88A76dA3Ed4Fa417318B57EF5c81619708",
+          "decimals": 8,
+          "type": "token"
+        }
+      },
+      "quote_token": {
+        "data": {
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x152d02c7e14af6800000"
+          },
+          "contract_address": "0xE6B0F358a65D43642E5A09E747f7bC5571aCdF51",
+          "decimals": 18,
+          "type": "token"
+        }
+      }
+    }
+  },
+  {
+    "id": "Syncswap-0xf6d9fc2609c74e63310f63a823324a543a0d1f64",
+    "type": "pool",
+    "attributes": {
+      "address": "0xf6d9fc2609c74e63310f63a823324a543a0d1f64",
+      "name": "DAI / WETH",
+      "base_token_price_quote_token": 0.000558659217877095,
+      "quote_token_price_base_token": 1790.0000000000002,
+      "swap_fee": "0.3"
+    },
+    "relationships": {
+      "dex": {
+        "data": {
+          "id": "Syncswap",
+          "type": "dex"
+        }
+      },
+      "base_token": {
+        "data": {
+          "name": "Dai Stablecoin",
+          "symbol": "DAI",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x9410b971994a2793000000"
+          },
+          "contract_address": "0x70abA4bfe60c143CB0A2CA3A288D27078B1Cd087",
+          "decimals": 18,
+          "type": "token"
+        }
+      },
+      "quote_token": {
+        "data": {
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x152d02c7e14af6800000"
+          },
+          "contract_address": "0xE6B0F358a65D43642E5A09E747f7bC5571aCdF51",
+          "decimals": 18,
+          "type": "token"
+        }
+      }
+    }
+  },
+  {
+    "id": "Syncswap-0xb7210602dda3c2d2eed940e6c494d10ca2e55d9a",
+    "type": "pool",
+    "attributes": {
+      "address": "0xb7210602dda3c2d2eed940e6c494d10ca2e55d9a",
+      "name": "USDT / WETH",
+      "base_token_price_quote_token": 0.0005420054200542,
+      "quote_token_price_base_token": 1845,
+      "swap_fee": "0.3"
+    },
+    "relationships": {
+      "dex": {
+        "data": {
+          "id": "Syncswap",
+          "type": "dex"
+        }
+      },
+      "base_token": {
+        "data": {
+          "name": "Tether USD",
+          "symbol": "USDT",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0xa7cd40f60800"
+          },
+          "contract_address": "0xD89328690Ff642cC8974CcD4246Ab4e3F2E8F96A",
+          "decimals": 6,
+          "type": "token"
+        }
+      },
+      "quote_token": {
+        "data": {
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x152d02c7e14af6800000"
+          },
+          "contract_address": "0xE6B0F358a65D43642E5A09E747f7bC5571aCdF51",
+          "decimals": 18,
+          "type": "token"
+        }
+      }
+    }
+  },
+  {
+    "id": "Syncswap-0xa1f9269ee0db2e47aaf630fec287caece0ec49c9",
+    "type": "pool",
+    "attributes": {
+      "address": "0xa1f9269ee0db2e47aaf630fec287caece0ec49c9",
+      "name": "SHIB / WETH",
+      "base_token_price_quote_token": 0.000555555555555555,
+      "quote_token_price_base_token": 1800.0000000000002,
+      "swap_fee": "0.3"
+    },
+    "relationships": {
+      "dex": {
+        "data": {
+          "id": "Syncswap",
+          "type": "dex"
+        }
+      },
+      "base_token": {
+        "data": {
+          "name": "SHIBA INU",
+          "symbol": "SHIB",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x94e47b8d68171534000000"
+          },
+          "contract_address": "0x003c7843DD0308Dbe4AdeeDfD51e05Bfb1fc5664",
+          "decimals": 18,
+          "type": "token"
+        }
+      },
+      "quote_token": {
+        "data": {
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x152d02c7e14af6800000"
+          },
+          "contract_address": "0xE6B0F358a65D43642E5A09E747f7bC5571aCdF51",
+          "decimals": 18,
+          "type": "token"
+        }
+      }
+    }
+  },
+  {
+    "id": "Syncswap-0x49185a1572ab9a9e503c6a4db2db5ebf7440bb76",
+    "type": "pool",
+    "attributes": {
+      "address": "0x49185a1572ab9a9e503c6a4db2db5ebf7440bb76",
+      "name": "LINK / WETH",
+      "base_token_price_quote_token": 0.009090909090909089,
+      "quote_token_price_base_token": 110.00000000000001,
+      "swap_fee": "0.3"
+    },
+    "relationships": {
+      "dex": {
+        "data": {
+          "id": "Syncswap",
+          "type": "dex"
+        }
+      },
+      "base_token": {
+        "data": {
+          "name": "ChainLink Token",
+          "symbol": "LINK",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x09195731e2ce35eb000000"
+          },
+          "contract_address": "0xac9F144787945dc07C82E24EadC9Bd559376C047",
+          "decimals": 18,
+          "type": "token"
+        }
+      },
+      "quote_token": {
+        "data": {
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x152d02c7e14af6800000"
+          },
+          "contract_address": "0xE6B0F358a65D43642E5A09E747f7bC5571aCdF51",
+          "decimals": 18,
+          "type": "token"
+        }
+      }
+    }
+  },
+  {
+    "id": "Syncswap-0x147da122b85821f53602f081d8d9eecb07551959",
+    "type": "pool",
+    "attributes": {
+      "address": "0x147da122b85821f53602f081d8d9eecb07551959",
+      "name": "ALE / WETH",
+      "base_token_price_quote_token": 0.001538461538461538,
+      "quote_token_price_base_token": 650.0000000000001,
+      "swap_fee": "0.3"
+    },
+    "relationships": {
+      "dex": {
+        "data": {
+          "id": "Syncswap",
+          "type": "dex"
+        }
+      },
+      "base_token": {
+        "data": {
+          "name": "Finale Token",
+          "symbol": "ALE",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x35c4490f820855e1000000"
+          },
+          "contract_address": "0xD69e29ae88274a623d1f8a10B84000C52127FBAb",
+          "decimals": 18,
+          "type": "token"
+        }
+      },
+      "quote_token": {
+        "data": {
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x152d02c7e14af6800000"
+          },
+          "contract_address": "0xE6B0F358a65D43642E5A09E747f7bC5571aCdF51",
+          "decimals": 18,
+          "type": "token"
+        }
+      }
+    }
+  }
+]
